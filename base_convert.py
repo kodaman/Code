@@ -11,8 +11,7 @@ def donusum(String):
         print "Octal to Decimal"
         cevir(String[1:],8)
     elif String[0] != "0":
-        print "Decimal to "
-        print String
+        print "Decimal\n ",String
         
 def cevir(StR,base):
     s=Stack()
